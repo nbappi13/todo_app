@@ -1,10 +1,11 @@
+import Todo from "./components/Todo"
 
 function App() {
 
   return (
-    <>  
-      <h1>React</h1>
-    </>
+    <div className="App">  
+      <Todo></Todo>
+    </div>
   )
 }
 

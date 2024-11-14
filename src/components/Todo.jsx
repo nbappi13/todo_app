@@ -4,10 +4,11 @@ import Form from "./Form";
 import TodoList from "./TodoList";
 
 export default function Todo({ todos, setTodos }) {
+  
   return (
     <div>
       <Form todos={todos} setTodos={setTodos} />
-      <TodoList todos={todos} />
+      <TodoList todos={todos} setTodos={setTodos} />
     </div>
   );
 }
